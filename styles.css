@@ -1,0 +1,29 @@
+html, body{
+    /* fixes whitespace around edge */
+    margin:0;
+    padding:0; 
+}
+
+.hero{
+    display: flex;
+    background-color:#302e2b;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height:6em;
+    align-items:center;
+}
+
+.nav-buttons{
+}
+.logo{
+    width:5em;
+    height:5em;
+    padding-top: 1em;
+    padding-left:1em;
+}
