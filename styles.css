@@ -5,10 +5,10 @@ html, body{
 }
 
 .hero{
-    display: flex;
     background-color:#302e2b;
     height: 100vh;
     width: 100vw;
+    font-family: 'Work Sans'
 }
 
 .nav{
@@ -26,4 +26,9 @@ html, body{
     height:5em;
     padding-top: 1em;
     padding-left:1em;
+}
+
+h1{
+    font-size: 5em;
+    color: white;
 }
